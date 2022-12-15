@@ -1,0 +1,136 @@
+h2 {
+  position: relative;
+  left: 25px;
+}
+.card {
+  border: 7px double black;
+  height: 500px;
+  width: 450px;
+  position: relative;
+  left: 30%;
+  top: 80px;
+}
+.card:hover {
+  border-radius: 20px;
+  background-color: black;
+  box-shadow: #f09;
+  border: 7px double white;
+  color: white;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+.b:hover {
+  color: #fff;
+  text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #f09,
+    0 0 80px #f09, 0 0 90px #f09, 0 0 100px #f09, 0 0 150px #f09;
+}
+img {
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.i1:hover {
+  height: 180px;
+  width: 180px;
+  border-radius: 0px;
+  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white,
+    0 0 40px rgb(5, 232, 5), 0 0 50px rgb(5, 232, 5), 0 0 60px rgb(20, 148, 20),
+    0 0 70px rgb(5, 232, 5), 0 0 80px rgb(5, 232, 5);
+}
+pre {
+  text-align: right;
+  position: relative;
+  bottom: 90px;
+  right: 20px;
+  text-size-adjust: 25px;
+  margin-bottom: 50px;
+}
+pre:hover {
+  color: rgb(3, 3, 0);
+  text-shadow: 0 0 10px #00ffff, 0 0 5px #000000, 0 0 10px #e0e6e6,
+    0 0 10px #00ffff, 0 0 10px #00ffff, 0 0 20px #ff006adc, 0 0 20px #ffdd00,
+    0 0 20px #ffdd00, 0 0 20px #dfe8e8;
+  /* 0 0 90px greenyellow,
+    0 0 100px #00ffff,
+    0 0 200px #00ffff; */
+}
+#f1 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+#f2 {
+  text-align: center;
+  font-size: 15px;
+  opacity: 60%;
+}
+#f3 {
+  opacity: 30%;
+}
+.name {
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  bottom: 120px;
+  font-family: Franklin Gothic;
+}
+.name:hover {
+  color: green;
+}
+.btn_1 {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+button {
+  color: white;
+  background-color: rgb(72, 72, 207);
+  width: 40%;
+  height: 40px;
+  margin-left: 3px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 130px;
+  padding: 5px;
+  display: inline;
+  text-align: center;
+}
+.btn_2 {
+  color: white;
+  background-color: grey;
+  width: 65px;
+  height: 40px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 130px;
+  display: inline;
+  text-align: center;
+}
+.highlights {
+  position: relative;
+  bottom: 120px;
+  right: 10px;
+}
+.hl {
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+.hl:hover {
+  border: 3px solid #f09;
+  box-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #f09,
+    0 0 80px #f09, 0 0 90px #f09, 0 0 100px #f09, 0 0 150px #f09;
+}
+li {
+  display: inline;
+  padding: 25px;
+  position: relative;
+  left: 15px;
+  text-align: right;
+  margin: 2px;
+}
+.btn_1:hover {
+  background-color: yellow;
+  color: black;
+}
+table {
+  position: relative;
+  bottom: 50px;
+}
